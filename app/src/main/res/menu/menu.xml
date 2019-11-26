@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Gelir Ekle" android:id="@+id/mnu_Gelir"/>
+    <item android:title="Gider Ekle" android:id="@+id/mnu_Gider"/>
+    <item android:title="Gecmis Görüntüle" android:id="@+id/mnu_Gecmis"/>
+    <item android:title="İstatistik" android:id="@+id/mnuIstatistik"/>
+    <item android:title="Gelir Sıfırla" android:id="@+id/mnuGelirZero"/>
+</menu>

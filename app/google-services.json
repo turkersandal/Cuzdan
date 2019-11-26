@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "216678860562",
+    "firebase_url": "https://cuzdan-52e3f.firebaseio.com",
+    "project_id": "cuzdan-52e3f",
+    "storage_bucket": "cuzdan-52e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216678860562:android:2da28da135a71342",
+        "android_client_info": {
+          "package_name": "com.turkersandal.cuzdan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216678860562-nosmeoe0o5ij401r210onnscpn2utb09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.turkersandal.cuzdan",
+            "certificate_hash": "b1c8c34ca6078fe787c418fa3929c5e81cc3be99"
+          }
+        },
+        {
+          "client_id": "216678860562-u3v0pb6ber9r83lnue29q7qv6ki36e8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaGGrHaEilnFfSAIoIlDhfBnk6rSYB_pY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216678860562-u3v0pb6ber9r83lnue29q7qv6ki36e8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

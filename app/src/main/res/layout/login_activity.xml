@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:background="#484848">
+
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/edtEmail" android:layout_marginTop="208dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.503"
+            android:hint="Email"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/edtPassword" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtEmail" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintVertical_bias="0.044" android:hint="Şifre"/>
+    <Button
+            android:text="Giriş"
+            android:layout_width="139dp"
+
+            android:layout_height="wrap_content"
+            app:layout_constraintCircleRadius="100dp"
+            android:id="@+id/btnGiris" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassword" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.336"/>
+    <TextView
+            android:text="Hesap Oluştur"
+            android:layout_width="108dp"
+            android:layout_height="26dp"
+            android:id="@+id/txtCreate" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnGiris" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.05"/>
+    <TextView
+            android:text="Parolamı Unuttum"
+            android:layout_width="120dp"
+            android:layout_height="26dp"
+            android:id="@+id/txtForgot" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txtCreate"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.524" app:layout_constraintVertical_bias="0.034"/>
+    <ImageView
+            android:layout_width="165dp"
+            android:layout_height="117dp"
+            android:id="@+id/imageView" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/edtEmail" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintVertical_bias="0.482" app:srcCompat="@drawable/wallet"/>
+    <CheckBox
+            android:text="Beni Hatırla"
+            android:layout_width="75dp"
+            android:layout_height="41dp"
+            android:id="@+id/checkBox" app:layout_constraintStart_toEndOf="@+id/btnGiris"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtPassword" app:layout_constraintHorizontal_bias="0.0"/>
+</android.support.constraint.ConstraintLayout>
